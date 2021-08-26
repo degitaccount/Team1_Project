@@ -1,0 +1,25 @@
+CREATE TABLE Happiness_twenty (
+     Country_name VARCHAR(40) NOT NULL,	
+	 Regional_indicator VARCHAR(40) NOT NULL,
+	 Ladder_score FLOAT NOT NULL,
+	 Standard_error_of_ladder_score FLOAT,
+	 upperwhisker FLOAT,
+	 lowerwhisker FLOAT,
+	 Logged_GDP_per_capita FLOAT,
+	 Social_support FLOAT,
+	 Healthy_life_expectancy FLOAT,
+	 Freedom_to_make_life_choices FLOAT,
+	 Generosity FLOAT,
+	 Perceptions_of_corruption FLOAT,
+	 Ladder_score_in_Dystopia FLOAT,
+	 Explained_by_Log_GDP_per_capita FLOAT,
+	 Explained_by_Social_support FLOAT,
+	 Explained_by_Healthy_life_expectancy FLOAT,
+	 Explained_by_Freedom_to_make_life_choices FLOAT,
+	 Explained_by_Generosity FLOAT,
+	 Explained_by_Perceptions_of_corruption FLOAT,
+	 Dystopia_residual FLOAT,
+     PRIMARY KEY (Country_name)
+);
+
+SELECT * FROM happiness_twenty;
