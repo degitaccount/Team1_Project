@@ -22,4 +22,79 @@ CREATE TABLE Happiness_twenty (
      PRIMARY KEY (Country_name)
 );
 
-SELECT * FROM happiness_twenty;
+CREATE TABLE Happiness_nineteen (
+     Overall_rank FLOAT,
+	 Country_or_region VARCHAR(40) NOT NULL,	
+	 Score FLOAT,
+	 GDP_per_capita FLOAT,
+	 Social_support FLOAT,
+	 Healthy_life_expectancy FLOAT,
+	 Freedom_to_make_life_choices FLOAT,
+	 Generosity FLOAT,
+	 Perceptions_of_corruption FLOAT,
+     PRIMARY KEY (Country_or_region)
+);
+
+CREATE TABLE Happiness_eighteen (
+     Overall_rank FLOAT,
+	 Country_or_region VARCHAR(40) NOT NULL,	
+	 Score FLOAT,
+	 GDP_per_capita FLOAT,
+	 Social_support FLOAT,
+	 Healthy_life_expectancy FLOAT,
+	 Freedom_to_make_life_choices FLOAT,
+	 Generosity FLOAT,
+	 Perceptions_of_corruption VARCHAR(40),
+     PRIMARY KEY (Country_or_region)
+);
+
+CREATE TABLE Happiness_seventeen (
+	 Country VARCHAR(40) NOT NULL,	
+	 Happiness_Rank FLOAT,
+	 Happiness_Score FLOAT,
+	 Whisker_high FLOAT,
+	 Whisker_low FLOAT,
+	 Economy_GDP_per_Capita FLOAT,
+	 Family_ FLOAT,
+	 Health_Life_Expectancy FLOAT,
+	 Freedom FLOAT,
+	 Generosity FLOAT,
+	 Trust_Government_Corruption FLOAT,
+	 Dystopia_Residual FLOAT,
+     PRIMARY KEY (Country)
+);
+
+CREATE TABLE Happiness_sixteen (
+	 Country VARCHAR(40) NOT NULL,
+	 Region VARCHAR(40) NOT NULL,
+	 Happiness_Rank FLOAT,
+	 Happiness_Score FLOAT,
+	 Lower_Confidence_Interval FLOAT,
+	 Upper_Confidence_Interval FLOAT,
+	 Economy_GDP_per_Capita FLOAT,
+	 Family_ FLOAT,
+	 Health_Life_Expectancy FLOAT,
+	 Freedom FLOAT,
+	 Trust_Government_Corruption_ FLOAT,
+	 Generosity FLOAT,
+	 Dystopia_Residual FLOAT,
+     PRIMARY KEY (Country)
+);
+
+CREATE TABLE Happiness_fifteen (
+	 Country VARCHAR(40) NOT NULL,
+	 Region VARCHAR(40) NOT NULL,
+	 Happiness_Rank FLOAT,
+	 Happiness_Score FLOAT,
+	 Standard_Error FLOAT,
+	 Economy_GDP_per_Capita FLOAT,
+	 Family_ FLOAT,
+	 Health_Life_Expectancy FLOAT,
+	 Freedom FLOAT,
+	 Trust_Government_Corruption FLOAT,
+	 Generosity FLOAT,
+	 Dystopia_Residual FLOAT,
+     PRIMARY KEY (Country)
+);
+
+
