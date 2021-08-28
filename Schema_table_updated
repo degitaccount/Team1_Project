@@ -102,3 +102,44 @@ CREATE TABLE Happiness_fifteen (
 	 Year FLOAT,
      PRIMARY KEY (Country)
 );
+
+
+	SELECT Country_name, Ladder_score, Year
+	FROM happiness_twenty
+	UNION
+	SELECT Country_or_region, Score, Year
+	FROM happiness_nineteen
+	UNION
+	SELECT Country_or_region, Score, Year
+	FROM happiness_eighteen
+	UNION
+	SELECT Country, Happiness_Score, Year
+	FROM happiness_seventeen
+	UNION
+	SELECT Country, Happiness_Score, Year
+	FROM happiness_sixteen
+	UNION
+	SELECT Country, Happiness_Score, Year
+	FROM happiness_fifteen
+	ORDER BY country_name, Year, ladder_score
+	
+SELECT happiness_twenty.Country_name, happiness_twenty.Ladder_score, happiness_twenty.Year INTO Consolidated_years
+FROM happiness_twenty
+UNION
+SELECT Country_or_region, Score, Year
+	FROM happiness_nineteen
+	UNION
+	SELECT Country_or_region, Score, Year
+	FROM happiness_eighteen
+	UNION
+	SELECT Country, Happiness_Score, Year
+	FROM happiness_seventeen
+	UNION
+	SELECT Country, Happiness_Score, Year
+	FROM happiness_sixteen
+	UNION
+	SELECT Country, Happiness_Score, Year
+	FROM happiness_fifteen
+	ORDER BY country_name, Year, ladder_score
+	
+SELECT * FROM consolidated_years;
