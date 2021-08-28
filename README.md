@@ -12,6 +12,8 @@ Our team chose to delve into this topic so we can better understand similarities
 - What are the factors that influence happiness the least?
 - Can we predict the happiness scores for the following year?
 
+For the duration of the project, this team intends to use Slack, WhatsApp, Zoom and Google Meet as the main communication tools.  We will leverage class time to discuss progress and plan for each week's deliverables and will meet on an ad-hoc basis whenever live collaboration is necessary.
+
 ## Machine Learnings Aspects
 
 **INSERT MACHINE LEARNING DESCRIPTION**
