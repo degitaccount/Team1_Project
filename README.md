@@ -2,11 +2,11 @@
 
 ## Project Overview
 
-Initially launched in 2012, the World Happiness Report reflects the results from an annual survey published by the United Nations' Sustainable Development Solutions Network (SDSN).  One of the main purposes of the report is to encourage world leaders to give more importance to happiness when measuring social and economic sucess as well as setting policies.  Since its inception, the most important data for the World Happiness Report has been the responses to the main life evaluation questions in the Gallup World Poll from respondents in more than 150 countries.  Therefore, for purposes of the report, happiness is measured based on six factors (GDP, social support, life expectancy, freedom to make life choices, generosity, and perceptions of corruption).  This approach helps to standardize how happiness is measured and compared across multiple geographies.
+Initially launched in 2012, the World Happiness Report reflects the results from an annual survey published by the United Nations' Sustainable Development Solutions Network (SDSN).  One of the main purposes of the report is to encourage world leaders to give more importance to happiness when measuring social and economic success as well as setting policies.  Since its inception, the most important data for the World Happiness Report has been the responses to the main life evaluation questions in the Gallup World Poll from respondents in more than 150 countries.  Therefore, for purposes of the report, happiness is measured based on six factors (GDP, social support, life expectancy, freedom to make life choices, generosity, and perceptions of corruption).  This approach helps to standardize how happiness is measured and compared across multiple geographies.
 
 Our team chose to delve into this topic so we can better understand similarities, differences and key drivers of happines across multiple geographies and years.  Some of the questions we will attempt to answer are:
 
-- How does each rank in terms of their happiness scores?
+- How does each country rank in terms of their happiness scores?
 - How have happiness scores trended over multiple years?
 - What are the factors that influence happiness the most?
 - What are the factors that influence happiness the least?
