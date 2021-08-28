@@ -12,7 +12,7 @@ Our team chose to delve into this topic so we can better understand similarities
 - What are the factors that influence happiness the least?
 - Can we predict the happiness scores for the following year?
 
-Our analysis will be based on data from [Kaggle](https://https://www.kaggle.com/mathurinache/world-happiness-report) which also be found on the [World Happiness Report Website](https://worldhappiness.report/ed/2020/#appendices-and-data).  These are "csv" files with country names, survey year, numerical happiness scores and numerical values representing reponses to the six life evaluation questions from the Gallop World Poll (GDP, social support, life expectancy, freedom to make life choices, generosity, and perceptions of corruption).
+Our analysis will be based on data from [Kaggle](https://https://www.kaggle.com/mathurinache/world-happiness-report) which is also available on the [World Happiness Report Website](https://worldhappiness.report/ed/2020/#appendices-and-data).  These are "csv" files with country names, survey year, numerical happiness scores and numerical values representing reponses to the six life evaluation questions from the Gallop World Poll (GDP, social support, life expectancy, freedom to make life choices, generosity, and perceptions of corruption).
 
 For the duration of the project, this team intends to use Slack, WhatsApp, Zoom and Google Meet as the main communication tools.  We will leverage class time to discuss progress and plan for each week's deliverables and will meet on an ad-hoc basis whenever live collaboration is necessary.
 
