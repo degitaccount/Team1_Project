@@ -33,6 +33,20 @@ For the duration of the project, this team intends to use Slack, WhatsApp, Zoom 
 
 ***NOTES FROM TEAM MEETING: Komal and Adam, -extract data from jupyter notebook to postgress SQL and do queries***
 
+* Created an EDR of the data 
+* Loaded all the datasets in jupyter notebook
+* renamed the column names to create a sample dataset 
+* Sample data is imported to Postgres SQL database from Jupyter notebook using SQLAlchemy
+* We will use UNION to concate our datasets and form the final dataset. 
+* We will add the year column for each dataset to segregate the data in the final dataset by "year"
+* The images of the EDR and tranported sampledata to postgres can be found below.
+
+
+![Picture1](https://user-images.githubusercontent.com/79213116/131256961-47f897c0-bbcb-48c0-9be5-a441791c06ad.png)
+
+![Picture1](https://user-images.githubusercontent.com/79213116/131256940-7d11189d-6195-4be5-b860-81d6f3f984bc.png)
+
+
 ***RUBRIC: Team members present a provisional database that stands in for the final database and accomplishes the following:***
 
 * Sample data that mimics the expected final database structure or schema
