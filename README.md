@@ -18,10 +18,6 @@ For the duration of the project, this team intends to use Slack, WhatsApp, Zoom 
 
 ## Database Integration
 
-**INSERT DATABASE DESCRIPTION**
-
-***NOTES FROM TEAM MEETING: Komal and Adam, -extract data from jupyter notebook to postgress SQL and do queries***
-
 * Created an EDR of the data 
 * Loaded all the datasets in jupyter notebook
 * renamed the column names to create a sample dataset 
