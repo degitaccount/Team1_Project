@@ -20,11 +20,11 @@ For the duration of the project, this team intends to use Slack, WhatsApp, Zoom 
 
 * Created an EDR of the data 
 * Loaded all the datasets in jupyter notebook
-* renamed the column names to create a sample dataset 
+* Renamed the column names to create a sample dataset 
 * Sample data is imported to Postgres SQL database from Jupyter notebook using SQLAlchemy
 * We will use UNION to concate our datasets and form the final dataset. 
 * We will add the year column for each dataset to segregate the data in the final dataset by "year"
-* The images of the EDR and tranported sampledata to postgres can be found below.
+* The images of the EDR and sampledata in postgres can be found below.
 
 ![Picture1](https://user-images.githubusercontent.com/79213116/131256961-47f897c0-bbcb-48c0-9be5-a441791c06ad.png)
 
