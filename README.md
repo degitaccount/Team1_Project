@@ -25,7 +25,7 @@ For the duration of the project, this team intends to use Slack, WhatsApp, Zoom 
 ***RUBRIC: Team members present a provisional machine learning model that stands in for the final machine learning model and accomplishes the following:***
 * Takes in data in from the provisional database
 * Outputs label(s) for input data
-
+*One of the analyses that we will perform is seeing if the total number of COVID-19 cases for a particular country in 2020 had any correlation with the happiness score from that year. Our prediction is that a country with higher total number of cases of COVID-19 will have seen some sort of decrease in their happiness score from 2019. To see whether this hypothesis is true, we would need to pull in a dataset that we found from an Oxford University source called Our World In Data that includes the total number of covid cases per country for different dates throughout 2020 (link here: https://ourworldindata.org/covid-cases). We can then take the average of total cases per country/region, and place it in a linear regression as an independent variable against the percent change between happiness scores from 2019 and 2020 as a dependent variable. This analysis will be done using Excel, Jupyter Notebook, and the Python Pandas library.
 
 ## Database Integration
 
