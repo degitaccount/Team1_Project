@@ -16,17 +16,6 @@ Our analysis will be based on data from [Kaggle](https://https://www.kaggle.com/
 
 For the duration of the project, this team intends to use Slack, WhatsApp, Zoom and Google Meet as the main communication tools.  We will leverage class time to discuss progress and plan for each week's deliverables and will meet on an ad-hoc basis whenever live collaboration is necessary.
 
-## Machine Learnings Aspects
-
-**INSERT MACHINE LEARNING DESCRIPTION**
-
-***NOTES FROM TEAM MEETING: - Andrew PCA, Random forest, Dendogram, run machine learning model in a jupyter notebook using pandas and pandas libraries, ETL (Nyla)***
-
-***RUBRIC: Team members present a provisional machine learning model that stands in for the final machine learning model and accomplishes the following:***
-* Takes in data in from the provisional database
-* Outputs label(s) for input data
-* One of the analyses that we will perform is seeing if the total number of COVID-19 cases for a particular country in 2020 had any correlation with the happiness score from that year. Our prediction is that a country with higher total number of cases of COVID-19 will have seen some sort of decrease in their happiness score from 2019. To see whether this hypothesis is true, we would need to pull in a dataset that we found from an Oxford University source called Our World In Data that includes the total number of covid cases per country for different dates throughout 2020 (link here: https://ourworldindata.org/covid-cases). We can then take the average of total cases per country/region, and place it in a linear regression as an independent variable against the percent change between happiness scores from 2019 and 2020 as a dependent variable. This analysis will be done using Excel, Jupyter Notebook, and the Python Pandas library.
-
 ## Database Integration
 
 **INSERT DATABASE DESCRIPTION**
@@ -41,15 +30,10 @@ For the duration of the project, this team intends to use Slack, WhatsApp, Zoom 
 * We will add the year column for each dataset to segregate the data in the final dataset by "year"
 * The images of the EDR and tranported sampledata to postgres can be found below.
 
-
 ![Picture1](https://user-images.githubusercontent.com/79213116/131256961-47f897c0-bbcb-48c0-9be5-a441791c06ad.png)
 
 ![Picture1](https://user-images.githubusercontent.com/79213116/131256940-7d11189d-6195-4be5-b860-81d6f3f984bc.png)
 
+## Machine Learnings Aspects
 
-***RUBRIC: Team members present a provisional database that stands in for the final database and accomplishes the following:***
-
-* Sample data that mimics the expected final database structure or schema
-* Draft machine learning module is connected to the provisional database
-
-
+One of the analyses that we will perform is seeing if the total number of COVID-19 cases for a particular country in 2020 had any correlation with the happiness score from that year. Our prediction is that a country with higher total number of cases of COVID-19 will have seen some sort of decrease in their happiness score from 2019. To see whether this hypothesis is true, we would need to pull in a dataset that we found from an Oxford University source called Our World In Data that includes the total number of covid cases per country for different dates throughout 2020 (click [here](https://ourworldindata.org/covid-cases)) to access the data. We can then take the average of total cases per country/region, and place it in a linear regression as an independent variable against the percent change between happiness scores from 2019 and 2020 as a dependent variable. This analysis will be done using Excel, Jupyter Notebook, and the Python Pandas library.
