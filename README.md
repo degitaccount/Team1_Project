@@ -24,8 +24,7 @@ For the duration of the project, this team intends to use Slack, WhatsApp, Zoom 
 * Sample data is imported to Postgres SQL database from Jupyter notebook using SQLAlchemy
 * We will use UNION to concate our datasets and form the final dataset.
 ![](https://github.com/degitaccount/Team1_Project/blob/Adam_M_branch/Data/Images/Union.PNG)
-* We will add the year column for each dataset to segregate the data in the final dataset by "year"
-* Performed ETL using Pandas to add the year delimiter in order to consolidate the data segments properly.
+* We added the year column for each dataset to segregate the data in the final dataset by "year"
 ![](https://github.com/degitaccount/Team1_Project/blob/Adam_M_branch/Data/Images/Stacked%20DF.PNG)
 * The images of the EDR and sampledata in postgres can be found below.
 
