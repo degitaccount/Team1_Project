@@ -1,0 +1,108 @@
+
+CREATE TABLE Happiness_twenty (
+     Country VARCHAR(40) NOT NULL,	
+	 Happiness_Score FLOAT,
+	 Economy_GDP_per_Capita FLOAT,
+	 Family FLOAT,
+	 Health_Life_Expectancy FLOAT,
+	 Freedom FLOAT,
+	 Generosity1 FLOAT,
+	 Trust_Government_Corruption FLOAT,
+	 Dystopia_Residual FLOAT,
+	 Year FLOAT,
+     PRIMARY KEY (Country)
+);
+
+CREATE TABLE Happiness_nineteen (
+     Country VARCHAR(40) NOT NULL,	
+	 Happiness_Score FLOAT,
+	 Economy_GDP_per_Capita FLOAT,
+	 Family FLOAT,
+	 Health_Life_Expectancy FLOAT,
+	 Freedom FLOAT,
+	 Generosity FLOAT,
+	 Trust_Government_Corruption FLOAT,
+	 Dystopia_Residual FLOAT,
+	 Year FLOAT,
+     PRIMARY KEY (Country)
+);
+
+CREATE TABLE Happiness_eighteen (
+     Country VARCHAR(40) NOT NULL,	
+	 Happiness_Score FLOAT,
+	 Economy_GDP_per_Capita FLOAT,
+	 Family FLOAT,
+	 Health_Life_Expectancy FLOAT,
+	 Freedom FLOAT,
+	 Generosity FLOAT,
+	 Trust_Government_Corruption FLOAT,
+	 Dystopia_Residual FLOAT,
+	 Year FLOAT,
+     PRIMARY KEY (Country)
+);
+
+CREATE TABLE Happiness_seventeen (
+     Country VARCHAR(40) NOT NULL,	
+	 Happiness_Score FLOAT,
+	 Economy_GDP_per_Capita FLOAT,
+	 Family FLOAT,
+	 Health_Life_Expectancy FLOAT,
+	 Freedom FLOAT,
+	 Generosity FLOAT,
+	 Trust_Government_Corruption FLOAT,
+	 Dystopia_Residual FLOAT,
+	 Year FLOAT,
+     PRIMARY KEY (Country)
+);
+
+CREATE TABLE Happiness_sixteen (
+     Country VARCHAR(40) NOT NULL,	
+	 Happiness_Score FLOAT,
+	 Economy_GDP_per_Capita FLOAT,
+	 Family FLOAT,
+	 Health_Life_Expectancy FLOAT,
+	 Freedom FLOAT,
+	 Generosity FLOAT,
+	 Trust_Government_Corruption FLOAT,
+	 Dystopia_Residual FLOAT,
+	 Year FLOAT,
+     PRIMARY KEY (Country)
+);
+
+CREATE TABLE Happiness_fifteen (
+     Country VARCHAR(40) NOT NULL,	
+	 Happiness_Score FLOAT,
+	 Economy_GDP_per_Capita FLOAT,
+	 Family FLOAT,
+	 Health_Life_Expectancy FLOAT,
+	 Freedom FLOAT,
+	 Generosity FLOAT,
+	 Trust_Government_Corruption FLOAT,
+	 Dystopia_Residual FLOAT,
+	 Year FLOAT,
+     PRIMARY KEY (Country)
+);
+
+SELECT happiness_twenty.Country, happiness_twenty.Happiness_Score, happiness_twenty.Economy_GDP_per_Capita,
+happiness_twenty.Family, happiness_twenty.Health_Life_Expectancy, happiness_twenty.Freedom, happiness_twenty.Generosity1,
+happiness_twenty.Trust_Government_Corruption, happiness_twenty.Dystopia_Residual, happiness_twenty.Year
+INTO Consolidated_years
+FROM happiness_twenty
+UNION
+SELECT Country, Happiness_Score, Economy_GDP_per_Capita, Family, Health_Life_Expectancy, Freedom, Generosity, Trust_Government_Corruption, Dystopia_Residual, Year 
+FROM happiness_nineteen
+UNION
+SELECT Country, Happiness_Score, Economy_GDP_per_Capita, Family, Health_Life_Expectancy, Freedom, Generosity, Trust_Government_Corruption, Dystopia_Residual, Year
+FROM happiness_eighteen
+UNION
+SELECT Country, Happiness_Score, Economy_GDP_per_Capita, Family, Health_Life_Expectancy, Freedom, Generosity, Trust_Government_Corruption, Dystopia_Residual, Year
+FROM happiness_seventeen
+UNION
+SELECT Country, Happiness_Score, Economy_GDP_per_Capita, Family, Health_Life_Expectancy, Freedom, Generosity, Trust_Government_Corruption, Dystopia_Residual, Year
+FROM happiness_sixteen
+UNION
+SELECT Country, Happiness_Score, Economy_GDP_per_Capita, Family, Health_Life_Expectancy, Freedom, Generosity, Trust_Government_Corruption, Dystopia_Residual, Year
+FROM happiness_fifteen
+ORDER BY Country, Year, Happiness_Score
+	
+SELECT * FROM consolidated_years;
