@@ -4,10 +4,10 @@ SELECT "Year20"."Country", "Year20"."Happiness_Score", "Year20"."Economy_GDP_per
 INTO Consolidated_years
 FROM "Year20"
 UNION
-SELECT "Country", "Happiness_Score", "Economy_GDP_per_Capita", "Family", "Health_Life_Expectancy", "Freedom", "Generosity", "Trust_Government_Corruption",NULL as "Dystopia_Residual", "Year" 
+SELECT "Country", "Happiness_Score", "Economy_GDP_per_Capita", "Family", "Health_Life_Expectancy", "Freedom", "Generosity", "Trust_Government_Corruption",(("Happiness_Score" :: decimal) - ("Economy_GDP_per_Capita" :: decimal) - ("Family" :: decimal) - ("Health_Life_Expectancy" :: decimal) - ("Freedom" :: decimal) - ("Generosity" :: decimal)- ("Trust_Government_Corruption" :: decimal)) AS "Dystopia_Residual", "Year" 
 FROM "Year19"
 UNION
-SELECT "Country", "Happiness_Score", "Economy_GDP_per_Capita", "Family", "Health_Life_Expectancy", "Freedom", "Generosity", "Trust_Government_Corruption", NULL as "Dystopia_Residual", "Year"
+SELECT "Country", "Happiness_Score", "Economy_GDP_per_Capita", "Family", "Health_Life_Expectancy", "Freedom", "Generosity", "Trust_Government_Corruption", (("Happiness_Score" :: decimal) - ("Economy_GDP_per_Capita" :: decimal) - ("Family" :: decimal) - ("Health_Life_Expectancy" :: decimal) - ("Freedom" :: decimal) - ("Generosity" :: decimal)- ("Trust_Government_Corruption" :: decimal)) as "Dystopia_Residual", "Year"
 FROM "Year18"
 UNION
 SELECT "Country", "Happiness_Score", "Economy_GDP_per_Capita", "Family", "Health_Life_Expectancy", "Freedom", "Generosity", "Trust_Government_Corruption","Dystopia_Residual","Year"
