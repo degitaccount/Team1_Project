@@ -4,7 +4,7 @@
 
 Initially launched in 2012, the World Happiness Report reflects the results from an annual survey published by the United Nations' Sustainable Development Solutions Network (SDSN).  One of the main purposes of the report is to encourage world leaders to give more importance to happiness when measuring social and economic success as well as setting policies.  Since its inception, the most important data for the World Happiness Report has been the responses to the main life evaluation questions in the Gallup World Poll from respondents in more than 150 countries.  Therefore, for purposes of the report, happiness is measured based on six factors (GDP, social support, life expectancy, freedom to make life choices, generosity, and perceptions of corruption).  This approach helps to standardize how happiness is measured and compared across multiple geographies.
 
-Our team chose to delve into this topic so we can better understand similarities, differences and key drivers of happines across multiple geographies and years.  Some of the questions we will attempt to answer are:
+Our team chose to delve into this topic so we can better understand similarities, differences and key drivers of happiness across multiple geographies and years.  Some of the questions we will attempt to answer are:
 
 - How does each country rank in terms of their happiness scores?
 - How have happiness scores trended over multiple years?
@@ -15,6 +15,8 @@ Our team chose to delve into this topic so we can better understand similarities
 Our analysis will be based on data from [Kaggle](https://www.kaggle.com/mathurinache/world-happiness-report) which is also available on the [World Happiness Report Website](https://worldhappiness.report/ed/2020/#appendices-and-data).  These are "csv" files with country names, survey year, numerical happiness scores and numerical values representing reponses to the six life evaluation questions from the Gallop World Poll (GDP, social support, life expectancy, freedom to make life choices, generosity, and perceptions of corruption).  We will also integrate information regarding 2020 COVID-19 cases from [Our World In Data](https://ourworldindata.org/covid-cases) to determine if there is a correlation between the number of cases and changes to the 2020 happiness score in specific countries.
 
 For the duration of the project, will use Slack, WhatsApp, Zoom and Google Meet as the main communication tools.  We will leverage class time to discuss progress and plan for each week's deliverables and will meet on an ad-hoc basis whenever live collaboration is necessary.
+
+The working draft of our final presentation is available on [Google Slides](https://docs.google.com/presentation/d/1LzUF1a--rYRFc8Gh1VT8G6T_l73ZLKaS8qHJjd3fUms/edit#slide=id.ged61554b6d_0_8).
 
 ## Database Integration
 
