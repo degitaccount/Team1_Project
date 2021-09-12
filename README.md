@@ -25,7 +25,7 @@ The working draft of our final presentation is available on [Google Slides](http
 * Renamed the column to create a sample dataset 
 * Sample data was imported to a PostgreSQL database from Jupyter notebook using SQLAlchemy
 * We will use UNION to concatenate our data and form the final dataset
-![](https://github.com/degitaccount/Team1_Project/blob/Adam_M_branch/Data/Images/Union.PNG)
+![](https://github.com/degitaccount/Team1_Project/blob/Adam_M_branch/Modified_Resources/Updated_Schema_pic.PNG)
 * Created additional columns in the 2019 and 2018 data sets. "Dystopia_Residual" and "Year"
 ![](https://github.com/degitaccount/Team1_Project/blob/Adam_M_branch/Data/Images/Stacked%20DF.PNG)
 * The images of the ERD and sample data in PostgreSQL can be found below
