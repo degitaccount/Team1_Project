@@ -28,7 +28,6 @@ The working draft of our final presentation is available on [Google Slides](http
 * Created additional columns in the 2019 and 2018 data sets. "Dystopia_Residual" and "Year"
 ![](https://github.com/degitaccount/Team1_Project/blob/Adam_M_branch/Modified_Resources/Updated_Schema_pic.PNG)
 
-![](https://github.com/degitaccount/Team1_Project/blob/Adam_M_branch/Data/Images/Stacked%20DF.PNG)
 * The images of the ERD and sample data in PostgreSQL can be found below
 
 ![Picture1](https://user-images.githubusercontent.com/79213116/131256961-47f897c0-bbcb-48c0-9be5-a441791c06ad.png)
