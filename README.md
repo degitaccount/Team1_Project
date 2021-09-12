@@ -26,11 +26,13 @@ The working draft of our final presentation is available on [Google Slides](http
 * Sample data was imported to a PostgreSQL database from Jupyter notebook using SQLAlchemy
 * We will use UNION to concatenate our data and form the final dataset
 ![](https://github.com/degitaccount/Team1_Project/blob/Adam_M_branch/Data/Images/Union.PNG)
-* We added the year column for each dataset to segregate the data in the final dataset by "year"
+* Created additional columns in the 2019 and 2018 data sets. "Dystopia_Residual" and "Year"
 ![](https://github.com/degitaccount/Team1_Project/blob/Adam_M_branch/Data/Images/Stacked%20DF.PNG)
 * The images of the ERD and sample data in PostgreSQL can be found below
 
 ![Picture1](https://user-images.githubusercontent.com/79213116/131256961-47f897c0-bbcb-48c0-9be5-a441791c06ad.png)
+
+* We were able to consolidate the ERD for the final dataset
 
 ![Picture1](https://user-images.githubusercontent.com/79213116/131256940-7d11189d-6195-4be5-b860-81d6f3f984bc.png)
 
