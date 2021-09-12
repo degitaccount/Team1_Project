@@ -30,7 +30,7 @@ The working draft of our final presentation is available on [Google Slides](http
 
 * The images of the ERD and sample data in PostgreSQL can be found below
 
-![Picture1](https://user-images.githubusercontent.com/79213116/131256961-47f897c0-bbcb-48c0-9be5-a441791c06ad.png)
+![](https://github.com/degitaccount/Team1_Project/blob/Adam_M_branch/Final_ERD.PNG)
 
 * We were able to consolidate the ERD for the final dataset
 
