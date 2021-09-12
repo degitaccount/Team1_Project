@@ -35,7 +35,7 @@ The working draft of our final presentation is available on [Google Slides](http
 
 * We were able to consolidate the ERD for the final dataset
 
-![Picture1](https://user-images.githubusercontent.com/79213116/131256940-7d11189d-6195-4be5-b860-81d6f3f984bc.png)
+![](https://github.com/degitaccount/Team1_Project/blob/Adam_M_branch/SQL_screenshot.png)
 
 ## Machine Learnings Aspects
 For the machine learning portion, we will be taking a look at a two different models to ascertain relationships within the data. We will use Principal Component Analysis (PCA)/K-Means clustering to analyze regional similarities as well as multivariate linear regression to analyze the main driver(s) of overall happiness scores. The data that we have gathered contains country name and region, overall happiness score, and items related to overall score such as GDP per capita, social support, healthy life expectancy, freedom to make choices, generosity, perceptions of corruption, and dystopia/residual. All of these columns are important in terms of determining the overall score but we will work to analyze which columns specifically carry more statistical weight. Below is a screenshot of our inital PCA run which shows that the ideal cluster size would be of size 3. 
