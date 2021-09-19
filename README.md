@@ -14,8 +14,6 @@ Our team chose to delve into this topic so we can better understand similarities
 
 Our analysis will be based on data from [Kaggle](https://www.kaggle.com/mathurinache/world-happiness-report) which is also available on the [World Happiness Report Website](https://worldhappiness.report/ed/2020/#appendices-and-data).  These are "csv" files with country names, survey year, numerical happiness scores and numerical values representing reponses to the six life evaluation questions from the Gallop World Poll (GDP, social support, life expectancy, freedom to make life choices, generosity, and perceptions of corruption).  We will also integrate information regarding 2020 COVID-19 cases from [Our World In Data](https://ourworldindata.org/covid-cases) to determine if there is a correlation between the number of cases and changes to the 2020 happiness score in specific countries.
 
-For the duration of the project, will use Slack, WhatsApp, Zoom and Google Meet as the main communication tools.  We will leverage class time to discuss progress and plan for each week's deliverables and will meet on an ad-hoc basis whenever live collaboration is necessary.
-
 Our final presentation is available on [Google Slides](https://docs.google.com/presentation/d/1LzUF1a--rYRFc8Gh1VT8G6T_l73ZLKaS8qHJjd3fUms/edit#slide=id.ged61554b6d_0_8) and our interactive dashboard is available on [Tableau Public](https://public.tableau.com/app/profile/stanley.isaacs/viz/WorldHappiness_16317461141940/HappinessFactors?publish=yes).
 
 ## Database Integration
