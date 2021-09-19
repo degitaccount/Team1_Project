@@ -16,7 +16,7 @@ Our analysis will be based on data from [Kaggle](https://www.kaggle.com/mathurin
 
 For the duration of the project, will use Slack, WhatsApp, Zoom and Google Meet as the main communication tools.  We will leverage class time to discuss progress and plan for each week's deliverables and will meet on an ad-hoc basis whenever live collaboration is necessary.
 
-The working draft of our final presentation is available on [Google Slides](https://docs.google.com/presentation/d/1LzUF1a--rYRFc8Gh1VT8G6T_l73ZLKaS8qHJjd3fUms/edit#slide=id.ged61554b6d_0_8).
+Our final presentation is available on [Google Slides](https://docs.google.com/presentation/d/1LzUF1a--rYRFc8Gh1VT8G6T_l73ZLKaS8qHJjd3fUms/edit#slide=id.ged61554b6d_0_8) and our interactive dashboard is available on [Tableau Public](https://public.tableau.com/app/profile/stanley.isaacs/viz/WorldHappiness_16317461141940/HappinessFactors?publish=yes).
 
 ## Database Integration
 
