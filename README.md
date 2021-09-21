@@ -42,3 +42,15 @@ For the machine learning portion, we will be taking a look at a two different mo
 We chose to use PCA, an unsupervised machine learning process used to determine principal components and subsequently use K-means clustering to find similarities in the dataset. The advantages of using this machine learning model is to reduce overfitting of the data by reducing the number of features, improve algorithm performance by removing variables that do not contribute to the decision making process, and is easy to compute. On the other hand, some disadvantages are that independent variables become less interpretable since principal components are linear combinations of the original features, the data needs to be standardized before performing PCA, and there is a trade-off between information loss and dimensionality reduction which is a necessary compromise when using this kind of model.  
 
 One additional analysis we will perform is seeing if the total number of COVID-19 cases for a particular country in 2020 had any correlation with the happiness score from that year. Our prediction is that a country with higher total number of cases of COVID-19 will have seen some sort of decrease in their happiness score from 2019. To see whether this hypothesis is true, we would need to pull in a dataset that we found from an Oxford University source called Our World In Data that includes the total number of covid cases per country for different dates throughout 2020 (click [here](https://ourworldindata.org/covid-cases)) to access the data. We can then take the average of total cases per country/region, and place it in a linear regression as an independent variable against the percent change between happiness scores from 2019 and 2020 as a dependent variable. This analysis will be done using Excel, Jupyter Notebook, and the Python Pandas library.
+
+## Summary of Analysis
+After analyzing the happiness score data from 2015-2020 we concluded the following:
+
+-	Finland, Denmark and Switzerland were the top three happiest countries in 2020
+-	Afghanistan, South Sudan and Zimbabwe were the three least happy countries in 2020
+-	Average happiness scores from 2015-2018 have been stable, however scores have continued to improve since 2019
+-	Highest improvement in happiness was in 2020, which is counterintuitive considered the global COVID-19 pandemic and social unrest in various parts of the world
+-	Family Support and Economy have consistently scored highest in determining individual happiness, whereas Trust in Government and Generosity scored lowest
+-	While 2020 had the highest average score over the time-period we analyzed, Freedom to Make Choices was a bit more important in determining individual happiness
+
+
