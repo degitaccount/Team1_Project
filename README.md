@@ -49,8 +49,8 @@ After analyzing the happiness score data from 2015-2020 we concluded the followi
 -	Finland, Denmark and Switzerland were the top three happiest countries in 2020
 -	Afghanistan, South Sudan and Zimbabwe were the three least happy countries in 2020
 -	Average happiness scores from 2015-2018 have been stable, however scores have continued to improve since 2019
--	Highest improvement in happiness was in 2020, which is counterintuitive considered the global COVID-19 pandemic and social unrest in various parts of the world
+-	Highest improvement in happiness was in 2020, which is counterintuitive considering the global COVID-19 pandemic and social unrest in various parts of the world
 -	Family Support and Economy have consistently scored highest in determining individual happiness, whereas Trust in Government and Generosity scored lowest
--	While 2020 had the highest average score over the time-period we analyzed, Freedom to Make Choices was a bit more important in determining individual happiness
+-	While 2020 had the highest average score over the time-period we analyzed, Freedom to Make Choices was a bit more important in determining individual happiness than in 2019
 
-
+![image](https://github.com/degitaccount/Team1_Project/blob/main/Images/ScoreTable.png)
